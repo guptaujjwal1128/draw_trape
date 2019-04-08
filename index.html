@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+    </head>
+
+    <body>
+      <h1>DRAW TRAPEZIUM</h1>
+      <p>Enter valid values eg 6  11  4  3</p>
+      <form>
+            Length of AB:
+            <input type="text" name="AB"><br>
+            Length of CD:
+            <input type="text" name="CD"><br>
+            Length of BC:
+            <input type="text" name="BC"><br>
+            Length of DA:
+            <input type="text" name="DA"><br>
+          </form>
+          <button onclick="draw()">Draw Trapezoid</button><br>
+      <div id="box" class="jxgbox"></div>
+    </body>
+    <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+    <script src="main.js"></script>
+</html>
